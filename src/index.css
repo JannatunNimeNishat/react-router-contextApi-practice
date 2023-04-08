@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 .my-container{
-  @apply sm:max-w-screen-sm md:max-w-screen-lg lg:max-w-screen-lg;
+  @apply sm:max-w-screen-sm md:max-w-screen-lg lg:max-w-screen-xl;
 }
-
+.active{
+  @apply text-blue-600;
+}
+.btn{
+  @apply px-1 py-1  text-white font-semibold rounded-lg;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
